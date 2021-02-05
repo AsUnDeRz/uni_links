@@ -37,7 +37,7 @@ static id _instance;
   [registrar addApplicationDelegate:instance];
 }
 
-- (void)setLatestLink:(NSString *)latestLink {
++ (void)setLatestLink:(NSString *)latestLink {
   static NSString *key = @"latestLink";
 
   [self willChangeValueForKey:key];
